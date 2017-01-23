@@ -3,7 +3,6 @@ Python interface to Boilerpipe, Boilerplate Removal and Fulltext Extraction from
 
 Installation
 ============
-You can install this lib directly from github repository by execute these command
     
     pip install JPype1 
     pip install charade
@@ -39,4 +38,3 @@ Then, to extract relevant content:
 
     extracted_text = extractor.getText()
     extracted_html = extractor.getHTML()
-
