@@ -5,17 +5,12 @@ Installation
 ============
 You can install this lib directly from github repository by execute these command
     
-    pip install git+ssh://git@github.com/slaveofcode/boilerpipe3@master
-
-Or from official pypi 
-
-    pip install boilerpipe3
+    pip install JPype1 
+    pip install charade
+    python setup.py install
 
 Configuration
 =============
-
-Dependencies:
-jpype, charade
 
 The boilerpipe jar files will get fetched and included automatically when building the package.
 
@@ -43,6 +38,5 @@ If no extractor is passed the DefaultExtractor will be used by default. Addition
 Then, to extract relevant content:
 
     extracted_text = extractor.getText()
-	
     extracted_html = extractor.getHTML()
 
